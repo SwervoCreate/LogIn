@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(238, 237, 237);
+    background-color: lightgray;
     overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
 .banner-container {
     display: flex;
     
-    background-color: rgba(219, 12, 12, 0.267);
+    background-color: ergba(219, 12, 12, 0.267);
     width: 40vw;
     height: 15vw;
     position: relative;
@@ -38,11 +38,11 @@ body {
 
 
 .signup-container {
-    background-color: grey;
+    background-color: lightgray;
     display: inline-block;
     justify-content: space-around;
     height: 40vh;
-    border: 3px solid black;
+    border: 3px solid maroon;
     border-radius: 10px;
     line-height: 100px;
     overflow: hidden;
@@ -128,6 +128,7 @@ button:active {
     gap: 30px;
     position: relative;
     top: -100px;
+    background-color: lightgray;
 }
 
 .bottom-right p {
@@ -151,4 +152,10 @@ h1 {
     font-size: x-small;
     position: relative;
     top: -150px;
+}
+
+input {
+    border: 2px solid black;
+    width: 33.3%;
+    height: 33.3%
 }
