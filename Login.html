@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sign-Up Sheet</title>
+</head>
+<body>       
+    <img class="bkg-img" src="/Resources/eberhard-grossgasteiger-fJ3qceLu1go-unsplash.jpg"> 
+    <div class="banner-container">
+        <img class="logo" src="/Resources/—Pngtree—red and black logo_5517319.png" alt="logo">
+        <h1>Sluts International</h1>
+    </div>
+    <div class="right-container">
+        <div class="prompt">
+            <p>Sign up for Sluts International. <br> You can't know what we do here til you pull up. <br>
+            and who doesn't wonder what's going on in Sluts International.</p>
+          
+            <p>I know you're wondering...</p>
+        </div>
+
+
+        <div class="signup-container">
+            <form method="#" action="POST">
+                <div class="front-row">
+                <div class="fname">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fName" name="fName" placeholder="First Name" required>
+                </div>
+                <div class="email">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email" placeholder="BunCheeks@AOL.com" required>
+                </div>
+
+                <div class="pword">
+                    <label for="pword">Password</label>
+                    <input type="password" name="pword" id="pword" required>
+                </div>
+                </div>
+                <div class="back-row">
+                <div class="lName">
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" name="lName" placeholder="Last Name" required>                    
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" placeholder="XXX-XXX-XXXX" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"required>
+                </div>
+
+                <div class="pword-conf">
+                    <label for="pword-conf">Confirm Password</label>
+                    <input type="password" name="pword-conf" id="pword-conf" required>
+                    <div id="error"></div>
+                </div>
+                </div>
+            </form>
+
+            
+        </div>
+        <div class="bottom-right">
+            <button type="submit" class="submit" id="submit">Create Account</button>
+            <p>Already Have An Account? <br><a href="#">Log in</a></p> 
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
